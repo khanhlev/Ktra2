@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Sign_In"
+    android:background="@drawable/grad">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/ic_person" />
+
+        <EditText
+            android:id="@+id/edittextUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_person_pin"
+            android:layout_marginBottom="10dp"
+            android:ems="15"
+            android:hint="Tên đăng nhập"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edittextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableEnd="@drawable/ic_lock"
+            android:ems="15"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="20dp"
+            android:text="Quên mật khẩu?"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/buttonSignin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#66BB6A"
+            android:text="Sign in" />
+
+        <Button
+            android:id="@+id/buttonSignup"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#66BB6A"
+            android:text="Sign up" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

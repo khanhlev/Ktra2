@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/update_pop.xml",
+        "source": "com.example.myapplication.app-main-45:/layout/update_pop.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/item_photo.xml",
+        "source": "com.example.myapplication.app-main-45:/layout/item_photo.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/activity_main.xml",
+        "source": "com.example.myapplication.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/fragment_mota_dowload.xml",
+        "source": "com.example.myapplication.app-main-45:/layout/fragment_mota_dowload.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/fragment_dow_load.xml",
+        "source": "com.example.myapplication.app-main-45:/layout/fragment_dow_load.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/activity_sign_up.xml",
+        "source": "com.example.myapplication.app-main-45:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/activity_add_main.xml",
+        "source": "com.example.myapplication.app-main-45:/layout/activity_add_main.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/activity_sign_in.xml",
+        "source": "com.example.myapplication.app-main-45:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/trangchu_item.xml",
+        "source": "com.example.myapplication.app-main-45:/layout/trangchu_item.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/custom_dong_food.xml",
+        "source": "com.example.myapplication.app-main-45:/layout/custom_dong_food.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-42:/layout/fragment_trang_chu.xml",
+        "source": "com.example.myapplication.app-main-45:/layout/fragment_trang_chu.xml"
+    }
+]

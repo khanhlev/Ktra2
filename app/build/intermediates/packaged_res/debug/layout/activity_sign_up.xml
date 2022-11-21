@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grad"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/ic_person" />
+
+
+        <TextView
+            android:id="@+id/textviewTaiKhoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:text="Tài khoản"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edittextTaiKhoan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textviewTaiKhoan"
+            android:layout_marginBottom="10dp"
+            android:drawableEnd="@drawable/ic_person_pin"
+            android:ems="15"
+            android:hint="Tên tài khoản"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textviewMatKhau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:text="Mật khẩu"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edittextMatKhau1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginBottom="10dp"
+            android:drawableEnd="@drawable/ic_lock"
+            android:ems="15"
+            android:hint="Nhập mật khẩu"
+            android:textSize="20dp" />
+
+
+
+        <Button
+            android:id="@+id/buttonSignup1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#66BB6A"
+            android:text="Sign up" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageviewBack_SU"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_back" />
+
+</RelativeLayout>

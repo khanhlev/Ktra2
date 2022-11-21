@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="address">#2F7092</color>
+    <color name="black">#FF000000</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="colorAccent">#0D5D98</color>
+    <color name="colorPrimary">#49BEFF</color>
+    <color name="colorPrimaryDark">#65DCE5</color>
+    <color name="color_selected_bottom_nav">#FFEE58</color>
+    <color name="followers">#0D5D98</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+    <color name="gradEnd">#67EFCF</color>
+    <color name="gradStart">#63C9FF</color>
+    <color name="grey">#E5E5E5</color>
+    <color name="headings">#3797CF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="Zalo">\@khanhlevan</string>
+    <string name="action_home">Home</string>
+    <string name="action_list">List</string>
+    <string name="action_my_page">My Page</string>
+    <string name="app_name">FOOD</string>
+    <string name="default_web_client_id" translatable="false">661843426934-a5eik3qtonmjg34vmkvk8386pboh5e1n.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://ktra2-aa8f1-default-rtdb.firebaseio.com</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="gcm_defaultSenderId" translatable="false">661843426934</string>
+    <string name="google_api_key" translatable="false">AIzaSyDpE9O5vhjIrAz-v_3sJL2CPxPTTCkKQGM</string>
+    <string name="google_app_id" translatable="false">1:661843426934:android:b489d02b6a95c153bbe957</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDpE9O5vhjIrAz-v_3sJL2CPxPTTCkKQGM</string>
+    <string name="google_storage_bucket" translatable="false">ktra2-aa8f1.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="project_id" translatable="false">ktra2-aa8f1</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.MyApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.MyApplication.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.MyApplication.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>
