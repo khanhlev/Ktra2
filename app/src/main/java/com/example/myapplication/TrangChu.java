@@ -98,11 +98,11 @@ public class TrangChu extends Fragment {
 //viewpager
     private List<photo> getListphoto() {
         List<photo> list = new ArrayList<>();
-        list.add(new photo(R.drawable.banhmynuongmuoiot));
-        list.add(new photo(R.drawable.banhtrangtron));
-        list.add(new photo(R.drawable.bundaumamtom));
-        list.add(new photo(R.drawable.changasatac));
-        list.add(new photo(R.drawable.m5));
+        list.add(new photo(R.drawable.phong));
+        list.add(new photo(R.drawable.duongxi));
+        list.add(new photo(R.drawable.cucvantho));
+        list.add(new photo(R.drawable.cuc));
+        list.add(new photo(R.drawable.boconganh));
         return list;
     }
 
